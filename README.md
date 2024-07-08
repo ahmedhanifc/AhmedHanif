@@ -1,2 +1,2 @@
 # AhmedHanif
-Welcome! I'm a Data Science and AI student dedicated to solving real-world problems with technology. Explore my projects and connect with me.
+Welcome to my personal website! I am a Data Science and AI student passionate about using technology to tackle real-world problems. With a blend of technical skills and a commitment to community engagement, I strive to create innovative solutions that make a positive impact. Explore my projects, learn about my journey, and connect with me
