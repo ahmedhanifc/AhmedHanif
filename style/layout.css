@@ -1,0 +1,19 @@
+html{
+
+    background-color: #f7f9fc;
+    box-sizing: border-box;
+}
+
+.main{
+    min-width: 800px;
+    max-width:1300px;
+    width: 80%;
+    margin:0 auto;
+    background-color: #ffffff;
+}
+
+header,
+.main{
+    box-shadow: 1px 8px 8px 1px rgba(0,0,0,0.1);
+}
+
