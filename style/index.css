@@ -13,8 +13,8 @@ header nav ul{
 
 
 .main-bio .image-container{
-    width: 150px;
-    height: 150px;
+    max-width: 200px;
+    min-height: 150px;
     border-radius: 50%;
     overflow: hidden;
     border:10px solid #e4e6e6;
@@ -55,4 +55,20 @@ header nav ul{
     display: flex;
     margin-top:40%;
     gap:10px;
+}
+
+.main-showcase-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+    background-color: #f7f9fc;
+}
+
+.main-showcase-container > div{
+    background-color: #fff;
+}
+
+
+.skills-container{
+    
 }
