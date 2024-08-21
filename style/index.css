@@ -36,9 +36,12 @@
 .main-bio .bio-container .bio-specification{
     margin-top:10%;
     display: grid;
+    gap:5px;
     grid-template-columns: auto auto;
     align-items: center;
 }
+
+
 .main-bio .social-media-links-container ul{
     display: flex;
     margin-top:40%;
