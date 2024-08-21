@@ -45,28 +45,84 @@
     gap:10px;
 }
 
-.main-about-us{
-    padding:40px 30px;
+.main-about-us,
+.main-showcase-container-skills,
+.main-showcase-container-interests
+{
+    padding:30px 20px;
 }
 
-.main-about-us h1{
+
+.main-showcase-container-skills h1,
+.main-showcase-container-interests h1,
+.main-about-us h1
+{
     font-size: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
-
+    font-weight: 700;
 }
 
+.about-us-description{
+    font-size: 1.2rem;
+}
+
+.main-about-us h1{
+    font-size: 1.9rem;
+    justify-content: flex-start ;
+}
 .main-showcase-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap:10px;
-    background-color: #f7f9fc;
+    background-color: #ecd9ba8a;
 }
 
 .main-showcase-container > div{
-    background-color: #fff;
+    background-color: #fffaf1;
+}
+
+.skills-container p{
+    color: #bdc3c7;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.skills-container button,
+.interests-container button{
+    border-radius: 100px;
+    padding: 16px 30px 16px 30px;
+    margin:5px 3px;
+    cursor:pointer;
+    color:white;
+    font-size:1.2rem;
+}
+
+.skills-programming-languages{
+    background-color: #0e9594;
+}
+
+.skills-database{
+    background-color: #f2542d;
+}
+
+.skills-AI{
+    background-color: #90bbed;
+
+}
+
+.interests-container button{
+    background-color: #6C757D;
 }
 
 
+
+@media only screen and (max-width: 768px) {
+
+    .main-showcase-container{
+        grid-template-columns: 1fr;
+        gap:10px;
+    }
+}

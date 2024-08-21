@@ -1,5 +1,5 @@
 html{
-    background-color: #f7f9fc;
+    background-color: #ecd9ba8a;
     box-sizing: border-box;
 }
 
@@ -14,8 +14,15 @@ html{
     max-width:1300px;
     width: 80%;
     margin:0 auto;
-    background-color: #ffffff;
     box-shadow: 1px 8px 8px 1px rgba(0,0,0,0.1);
+
+}
+
+.main-bio,
+.main-about-us,
+.main-showcase-container,
+header{
+    background-color: #fffaf1;
 
 }
 
@@ -60,9 +67,6 @@ footer{
     background-color: #101010;
 }
 
-header{
-    background-color: #fff;
-}
 
 .nav-menu {
     display: flex;

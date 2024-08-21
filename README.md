@@ -4,7 +4,11 @@ Welcome to my personal website! I am a Data Science and AI student passionate ab
 
 
 color pallete:
-#f7f9fc
+https://coolors.co/palette/696663-73706d-7e7b78-8b8784-999491-a8a39f-b9b3af-cbc5c0-dfd9d3-f5efe8
+
+https://www.pinterest.com/pin/undefined--83809243054246809/
+
+https://coolors.co/palette/f8f9fa-e9ecef-dee2e6-ced4da-adb5bd-6c757d-495057-343a40-212529
 
 To Do List:
 -> Pad Text
