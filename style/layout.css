@@ -59,6 +59,10 @@ footer{
     background-color: #101010;
 }
 
+header{
+    background-color: #fff;
+}
+
 .nav-menu {
     display: flex;
     justify-content: space-between;
