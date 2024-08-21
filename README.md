@@ -5,3 +5,7 @@ Welcome to my personal website! I am a Data Science and AI student passionate ab
 
 color pallete:
 #f7f9fc
+
+To Do List:
+-> Pad Text
+-> Change font
