@@ -72,6 +72,11 @@ footer{
     padding: 1rem 1.5rem;
 }
 
+
+.navbar .logo img{
+    width: 30px;
+}
+
 .hamburger{
     display: none;
 }
@@ -131,6 +136,8 @@ footer{
     .nav-item {
         margin: 2.5rem 0;
     }
+
+
 
     .hamburger {
         display: block;

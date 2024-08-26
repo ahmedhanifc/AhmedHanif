@@ -4,7 +4,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:40px 0;
+    width: 80%;
+    margin:40px auto 0 auto;
+    background-color: #fffaf1;
+
 }
 
 .thumbnail-container{
@@ -13,6 +16,7 @@
 }
 .thumbnail-container img{
     width: 60%;
+    margin:40px auto 0 auto;
 }
 
 .header-container{
