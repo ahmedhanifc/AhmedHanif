@@ -103,13 +103,6 @@
     margin:0 auto;
 }
 
-#horizontal-line{
-    width:90%;
-    padding:10px 0;
-    margin:0 auto;
-    border-top:2px solid black;
-
-}
 
 @media only screen and (max-width: 768px) {
     .experience-details-container{

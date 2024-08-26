@@ -1,6 +1,11 @@
 html{
     background-color: #ecd9ba8a;
     box-sizing: border-box;
+    line-height: 1.7rem;
+}
+
+button{
+    border: none;
 }
 
 .logo{
@@ -16,7 +21,8 @@ html{
 .main-bio,
 .main-about-us,
 .main-showcase-container,
-.experience-container{
+.experience-container,
+.portfolio-container{
     max-width:1300px;
     width: 80%;
     margin:0 auto;
@@ -24,11 +30,20 @@ html{
     margin-top: 30px;
 }
 
+#horizontal-line{
+    width:90%;
+    padding:10px 0;
+    margin:0 auto;
+    border-top:1.5px solid black;
+}
+
+
 .main-bio,
 .main-about-us,
 .main-showcase-container,
 header,
-.experience-container{
+.experience-container,
+.portfolio-container{
     background-color: #fffaf1;
 
 }
