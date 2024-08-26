@@ -5,7 +5,7 @@
     min-height: 150px;
     border-radius: 50%;
     overflow: hidden;
-    border:10px solid #e4e6e6;
+    border:10px solid #6C757D;
 }
 .main-bio .image-container img{
     width:100%;
@@ -56,17 +56,6 @@
 }
 
 
-.main-showcase-container-skills h1,
-.main-showcase-container-interests h1,
-.main-about-us h1
-{
-    font-size: 1.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-    font-weight: 700;
-}
 
 .about-us-description{
     font-size: 1.2rem;

@@ -15,20 +15,37 @@ html{
 }
 .main-bio,
 .main-about-us,
-.main-showcase-container{
+.main-showcase-container,
+.experience-container{
     max-width:1300px;
     width: 80%;
     margin:0 auto;
     box-shadow: 1px 8px 8px 1px rgba(0,0,0,0.1);
-
+    margin-top: 30px;
 }
 
 .main-bio,
 .main-about-us,
 .main-showcase-container,
-header{
+header,
+.experience-container{
     background-color: #fffaf1;
 
+}
+
+
+
+.main-showcase-container-skills h1,
+.main-showcase-container-interests h1,
+.main-about-us h1,
+.experience-container .heading-container h1
+{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-weight: 700;
 }
 
 header{
