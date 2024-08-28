@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Experience</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="../style/reset.css">
     <link rel="stylesheet" href="../style/layout.css">
+    <link rel="stylesheet" href="../style/portfolio.css">
+    <link rel="icon" href="../images/ahmedLogo.png" type="image/icon type">
 
 </head>
 <body>
@@ -46,14 +48,70 @@
     <div class="portfolio-container">
         <div class="heading-container">
             <h1>Portfolio</h1>
-            <p>Expand the Project to View more details</p>
         </div>
+        <!-- <div class="portfolio-options">
+            <button class="portfolio-container-one-button active">1</button>
+            <button class="portfolio-container-two-button">2</button>
+        </div> -->
 
-        <div id="horizontal-line"></div>
 
-        <div class="portfolio-item">
+
+        <div class="portfolio-container-one active">
+            <div class="portfolio-item">
+                <div class="portfolio-details-container">
+                    <div class="portfolio-logo">
+                        <img src="../images/optimumSystems.png" alt="">
+                    </div>
+                    <div class="portfolio-details">
+                        <div class="portfolio-company">Optimum Systems</div>
+                        <div class="portfolio-meta-data">
+                            <span>AI Engineer</span> | July 2024 - August 2024
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-description-container">
+                    <div class="portfolio-location">
+                        <span><img src="../images/location.svg" alt=""></span> Doha, Qatar
+                    </div>
+                    <div class="portfolio-description">
+                        <p>I processed and cleaned data using Python libraries, automating tasks to ensure consistent and accurate input for machine learning models. I then trained a BERT model on medical guidelines, developing a RAG pipeline that achieved a higher similarity score than OpenAI. Additionally, I modified the pipeline to extract JSON and convert it into Excel format for more efficient information extraction.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="horizontal-line"></div>
             
         </div>
+
+
+        <div class="portfolio-container-two">
+
+            <div class="portfolio-item">
+                <div class="portfolio-details-container">
+                    <div class="portfolio-logo">
+                        <img src="../images/optimumSystems.png" alt="">
+                    </div>
+                    <div class="portfolio-details">
+                        <div class="portfolio-company">Optimum Systems</div>
+                        <div class="portfolio-meta-data">
+                            <span>AI Engineer</span> | July 2024 - August 2024
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-description-container">
+                    <div class="portfolio-location">
+                        <span><img src="../images/location.svg" alt=""></span> Doha, Qatar
+                    </div>
+                    <div class="portfolio-description">
+                        <p>I processed and cleaned data using Python libraries, automating tasks to ensure consistent and accurate input for machine learning models. I then trained a BERT model on medical guidelines, developing a RAG pipeline that achieved a higher similarity score than OpenAI. Additionally, I modified the pipeline to extract JSON and convert it into Excel format for more efficient information extraction.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="horizontal-line"></div>
+
+        </div>
+
 
     </div>
 
@@ -63,5 +121,6 @@
 
 
     <script src="../script/navbar.js"></script>
+    <script src="../script/portfolio.js"></script>
 </body>
 </html>

@@ -1,0 +1,112 @@
+.portfolio-container .heading-container{
+    padding:20px 0 0 0;
+}
+
+.portfolio-options{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width:40%;
+    margin:0 auto;
+    gap:10px;
+    padding:0px 0 30px 0
+}
+
+.portfolio-options button {
+    border-radius: 100px;
+    padding: 8px 7px;
+    background-color: #FFFAF1;
+}
+
+.portfolio-options button.active{
+    background-color: #6C757D;
+    color:white;
+    font-weight: 600;
+}
+
+.portfolio-options button{
+    background-color: #FFFAF1;
+    font-weight: 400;
+    color:black;
+}
+
+.volunteer-options button.active{
+    background-color: #6C757D;
+    color:white;
+    font-weight: 600;
+}
+
+.portfolio-logo{
+    width:10%;
+}
+
+.portfolio-logo img{
+    width: 70px;
+    border-radius: 120px;
+}
+
+.portfolio-container-one{
+    display: none;
+}
+
+.portfolio-container-two{
+    display: none;
+}
+
+.portfolio-container-one.active{
+    display: block;
+}
+
+.portfolio-container-two.active{
+    display: block;
+}
+
+.portfolio-details-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+
+.portfolio-container-one,
+.portfolio-container-two{
+    width:90%;
+    margin:0 auto;
+}
+
+.portfolio-item{
+    padding:20px 0;
+}
+
+.portfolio-company{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.portfolio-meta-data span, .portfolio-location{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.portfolio-description{
+    margin: 20px 0;
+}
+
+.portfolio-location{
+    margin:10px 0 0 0;
+}
+
+.portfolio-meta-data{
+    font-weight: 300;
+}
+
+.portfolio-description-container{
+    width:85%;
+    margin:0 auto;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .portfolio-details-container{
+        flex-direction: column;
+        gap:5px;
+    }
+}

@@ -53,7 +53,8 @@ header,
 .main-showcase-container-skills h1,
 .main-showcase-container-interests h1,
 .main-about-us h1,
-.experience-container .heading-container h1
+.experience-container .heading-container h1,
+.portfolio-container .heading-container h1
 {
     font-size: 1.5rem;
     display: flex;

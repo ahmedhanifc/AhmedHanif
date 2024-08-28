@@ -1,6 +1,6 @@
 .blog-container{
     display: flex;
-    max-width:80%;
+    width:80%;
     flex-wrap: wrap;
     gap:20px;
     margin:0 auto;
@@ -11,8 +11,8 @@
 .blog-entry{
     background-color: #fffaf1;
     box-shadow: 1px 10px 10px 1px rgba(0,0,0,0.2);
-    flex: 1 1 450px;
-    max-width: 450px;
+    flex: 1 1 300px;
+    max-width: 350px;
     margin:10px 0;
     padding:0 0 40px 0;
 }
@@ -31,7 +31,7 @@
 }
 
 .blog-header-container h1{
-    font-size: 2.2rem;
+    font-size: 2rem;
     padding:10px 0px 10px 0px;
 }
 
@@ -41,6 +41,10 @@
 
 .blog-image-container img{
     width: 100%;
+}
+
+.blog-short-description{
+    font-size: 0.8rem;
 }
 
 

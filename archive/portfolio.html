@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="../style/layout.css">
+    <link rel="stylesheet" href="../style/portfolio.css">
+    <link rel="icon" href="../images/ahmedLogo.png" type="image/icon type">
+
+</head>
+<body>
+
+    <header>
+            <nav class = "navbar">
+                <div class="logo">
+                    <a href="../index.html">
+                        <img src="../images/ahmedLogo.png" alt="">
+                    </a>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link" >About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./experience.html" class="nav-link" >Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./blog/blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./portfolio.html" class="nav-link" style = "border-bottom: 2px solid #6C757D; ">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+    </header>
+
+    <div class="portfolio-container">
+        
+        <a href = "./entries/entry_number_one/helloworld.html" class="portfolio-entry">
+            <div class="portfolio-image-container">
+                <img src="./blog/entries/entry_number_one/thumbnail.png" alt="">
+            </div>
+            <div class="portfolio-header-container">
+                <h1>Project</h1>
+                <button class = 'portfolio-project-expand'>
+                    <img src="../images/expand.svg" alt="">
+                </button>
+            </div>
+            <div class="portfolio-short-description">
+                <p>My First Portfolio Entry😊.</p>
+            </div>
+        </a>
+        
+        <!-- Template -->
+        <!-- <a href = "" class="portfolio-entry">
+            <div class="portfolio-image-container">
+                <img src="" alt="">
+            </div>
+            <div class="portfolio-header-container">
+                <h1></h1>
+            </div>
+            <div class="portfolio-meta-data">
+                <div class="entry-date"></div>
+                <div class="reading-time">
+                    <div class="reading-time-icon"><img src="../../images/clock.svg" alt=""></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="portfolio-short-description">
+                <p></p>
+            </div>
+        </a> -->
+
+    </div>
+
+    <div class="portfolio-expansion-container">
+        <div class="expansion-container-close-button-container">
+            <button class = 'portfolio-project-expand-close-button'>
+                <img src="../images/closeButton.svg" alt="">
+            </button>
+        </div>
+        <div class="portfolio-expansion-item">
+            <div class="portfolio-expansion-header-container">
+                <div class="project-logo">
+                    <img src="../images/ahmedLogo.png" alt="">
+                </div>
+                <h1>Project</h1>
+            </div>
+            <div class="portfolio-expansion-meta-data"></div>
+            <div class="portfolio-expansion-slideshow-container">
+                <div class="main-image">
+                  <img id="currentImage" src="../images/placeholder/1.png" alt="Project screenshot">
+                  <div class="counter">1/4</div>
+                  <a class="prev">&#10094;</a>
+                  <a class="next">&#10095;</a>
+                </div>
+                <!-- <div class="thumbnails">
+                  <img src="../images/placeholder/1.png" alt="Thumbnail 1" class="active">
+                  <img src="../images/placeholder/2.png" alt="Thumbnail 2">
+                  <img src="../images/placeholder/3.png" alt="Thumbnail 3">
+                  <img src="../images/placeholder/4.png" alt="Thumbnail 4">
+                </div> -->
+              </div>
+        </div>
+    </div>
+
+    <footer>
+        <div>© 2024 Ahmed Hanif</div>
+    </footer>
+
+
+    <script src="../script/navbar.js"></script>
+    <script src="../script/portfolio.js"></script>
+</body>
+</html>
