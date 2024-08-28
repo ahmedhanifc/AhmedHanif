@@ -129,6 +129,19 @@ footer{
     text-align: center;
 }
 
+.skills-programming-languages{
+    background-color: #0e9594;
+}
+
+.skills-database{
+    background-color: #f2542d;
+}
+
+.skills-AI{
+    background-color: #90bbed;
+
+}
+
 
 @media only screen and (max-width: 768px) {
     .nav-menu {

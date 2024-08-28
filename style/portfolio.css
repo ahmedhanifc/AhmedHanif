@@ -81,7 +81,7 @@
     font-size: 1.2rem;
 }
 
-.portfolio-meta-data span, .portfolio-location{
+.portfolio-meta-data span, .portfolio-tags{
     font-weight: 500;
     font-size: 1rem;
 }
@@ -90,8 +90,25 @@
     margin: 20px 0;
 }
 
-.portfolio-location{
+.portfolio-tags{
     margin:10px 0 0 0;
+    display: flex;
+    gap:10px ;
+    flex-wrap: wrap;
+}
+
+.portfolio-tags button{
+    border-radius: 100px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    line-height: 26px;
+
 }
 
 .portfolio-meta-data{
