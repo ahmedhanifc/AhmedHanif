@@ -120,6 +120,11 @@
     margin:0 auto;
 }
 
+.project-links-container p a{
+    text-decoration: underline;
+    color:#90BBED;
+    font-weight: 700;
+}
 
 @media only screen and (max-width: 768px) {
     .portfolio-details-container{
