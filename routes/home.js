@@ -1,9 +1,12 @@
 const express = require('express');
 const router = express.Router();
 
-router.get("/", async (req, res) => {
-    res.send("Hello")
+router.get("/", (req,res) => {
+
+    res.render("home" , {
+        layout:undefined,
+    })
 })
 
 
-module.exports = router;
+module.exports = router
