@@ -11,28 +11,25 @@
     padding:0px 0 30px 0
 }
 
-.experience-options button {
+.experience-options a {
     border-radius: 100px;
     padding: 8px 7px;
     background-color: #FFFAF1;
+    text-align: center;
 }
-
-.experience-options button.active{
+.experience-options:hover{
+    cursor: pointer;
+}
+.experience-options a.active{
     background-color: #6C757D;
     color:white;
     font-weight: 600;
 }
 
-.experience-options button{
+.experience-options a{
     background-color: #FFFAF1;
     font-weight: 400;
     color:black;
-}
-
-.volunteer-options button.active{
-    background-color: #6C757D;
-    color:white;
-    font-weight: 600;
 }
 
 .experience-logo{
@@ -44,30 +41,13 @@
     border-radius: 120px;
 }
 
-.professional-experience-container{
-    display: none;
-}
-
-.volunteer-experience-container{
-    display: none;
-}
-
-.professional-experience-container.active{
-    display: block;
-}
-
-.volunteer-experience-container.active{
-    display: block;
-}
-
 .experience-details-container{
     display: flex;
     flex-wrap: wrap;
     gap:20px;
 }
 
-.professional-experience-container,
-.volunteer-experience-container{
+.professional-experience-container{
     width:90%;
     margin:0 auto;
 }

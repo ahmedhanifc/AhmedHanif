@@ -1,0 +1,76 @@
+<head>
+    <link rel="stylesheet" href="/static/style/experience.css">
+</head>
+<body>
+    <div class="experience-container">
+        <div class="heading-container">
+            <h1>Experience</h1>
+        </div>
+        <div class="experience-options">
+            {{#if professionalExperienceSelected}}
+            <a class="professional-experience-button active" href = "/experience?professionalExperienceSelected=true">Professional</a>
+            <a class="volunteer-experience-button" href = "/experience?professionalExperienceSelected=false">Volunteer</a>
+            {{else}}
+            <a class="professional-experience-button" href = "/experience?professionalExperienceSelected=true">Professional</a>
+            <a class="volunteer-experience-button active" href = "/experience?professionalExperienceSelected=false">Volunteer</a>
+            {{/if}}
+        </div>
+
+        <div class="professional-experience-container">
+        {{#if professionalExperienceSelected}}
+            {{#each professionalExperience}}
+            <div class="experience-item">
+                <div class="experience-details-container">
+                    <div class="experience-logo">
+                        <img src="{{this.logo}}" alt="">
+                    </div>
+                    <div class="experience-details">
+                        <div class="experience-company">{{this.company}}</div>
+                        <div class="experience-meta-data">
+                            <span>{{this.position}}</span> | {{this.date}}
+                        </div>
+                    </div>
+                </div>
+                <div class="experience-description-container">
+                    <div class="experience-location">
+                        <span><img src="/static/images/location.svg" alt=""></span> {{this.location}}
+                    </div>
+                    <div class="experience-description">
+                        <p>{{this.description}}</p>
+                    </div>
+                </div>
+            </div>
+            <div id="horizontal-line"></div>
+            {{/each}}
+            {{else}}
+            {{#each volunteerExperience}}
+                <div class="experience-item">
+                    <div class="experience-details-container">
+                        <div class="experience-logo">
+                            <img src="{{this.logo}}" alt="">
+                        </div>
+                        <div class="experience-details">
+                            <div class="experience-company">{{this.company}}</div>
+                            <div class="experience-meta-data">
+                                <span>{{this.position}}</span> | {{this.date}}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience-description-container">
+                        <div class="experience-location">
+                            <span><img src="/static/images/location.svg" alt=""></span> {{this.location}}
+                        </div>
+                        <div class="experience-description">
+                            <p>{{this.description}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="horizontal-line"></div>
+            {{/each}}
+            {{/if}}
+        </div>
+    </div>
+
+
+</body>
+</html>

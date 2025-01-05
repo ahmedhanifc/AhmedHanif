@@ -55,6 +55,17 @@
     padding:30px 20px;
 }
 
+.about-us-description ol {
+    margin-left: 20px;
+}
+
+.about-us-description li {
+    list-style:disc;
+}
+.about-us-description h2{
+    font-weight: 500;
+    padding:20px 0;
+}
 
 
 .about-us-description{
@@ -63,7 +74,7 @@
 
 .main-about-us h1{
     font-size: 1.9rem;
-    justify-content: flex-start ;
+    justify-content: center ;
 }
 .main-showcase-container{
     display: grid;
@@ -98,7 +109,6 @@
 .interests-container button{
     background-color: #6C757D;
 }
-
 
 
 
